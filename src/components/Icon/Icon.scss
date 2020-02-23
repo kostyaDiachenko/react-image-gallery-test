@@ -1,0 +1,32 @@
+@font-face {
+  font-display: swap;
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/icons.woff?v1.0.0") format("woff");
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  text-transform: none;
+  font-family: "icons" !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  font-variant: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-trash::before {
+  content: "\e902";
+}
+
+.icon-edit::before {
+  content: "\e900";
+}
+
+.icon-save::before {
+  content: "\e901";
+}

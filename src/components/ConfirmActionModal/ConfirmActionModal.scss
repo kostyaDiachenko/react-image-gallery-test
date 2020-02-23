@@ -1,0 +1,22 @@
+.confirm-action-modal {
+  &__warning {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 18px;
+  }
+  &__action {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 14px 30px;
+    border-radius: 3px;
+    background-color: #ff8041;
+    font-size: 16px;
+    color: #fff;
+    transition: background-color 0.2s ease-in-out;
+    &:hover {
+      background-color: darken(#ff8041, 8%);
+    }
+  }
+}

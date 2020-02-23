@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700&display=swap");
+
+* {
+  min-width: 0;
+  min-height: 0;
+}
+
+html {
+  -webkit-overflow-scrolling: touch !important;
+  height: 100%;
+  font-size: 14px;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  font-family: "Muli", "sans-serif";
+  font-weight: 400;
+  color: #333;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+[type=reset],
+[type=submit],
+html [type=button] {
+  -webkit-appearance: none;
+}
+
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  &::-moz-focus-inner {
+    border: 0;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    box-shadow: none;
+    outline: none !important;
+  }
+}
+
+img {
+  max-width: 100%;
+}
